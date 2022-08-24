@@ -67,3 +67,42 @@ Before we get started, keep in mind:
 [debug] [2022-08-23T15:29:21.151Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
 [debug] [2022-08-23T15:29:21.688Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
 [debug] [2022-08-23T15:29:21.688Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:35:44.399Z] >>> [apiv2][query] GET https://api.github.com/repos/git@github.com:Gurjantrandahwa/AmazonClone.git/actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:35:45.322Z] <<< [apiv2][status] GET https://api.github.com/repos/git@github.com:Gurjantrandahwa/AmazonClone.git/actions/secrets/public-key 401
+[debug] [2022-08-23T15:35:45.323Z] <<< [apiv2][body] GET https://api.github.com/repos/git@github.com:Gurjantrandahwa/AmazonClone.git/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:36:04.797Z] >>> [apiv2][query] GET https://api.github.com/repos/Gurjantrandahwa/actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:36:04.801Z] >>> [apiv2][query] GET https://api.github.com/repos///actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:36:05.669Z] <<< [apiv2][status] GET https://api.github.com/repos/Gurjantrandahwa/actions/secrets/public-key 401
+[debug] [2022-08-23T15:36:05.669Z] <<< [apiv2][body] GET https://api.github.com/repos/Gurjantrandahwa/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:36:05.705Z] <<< [apiv2][status] GET https://api.github.com/repos///actions/secrets/public-key 401
+[debug] [2022-08-23T15:36:05.705Z] <<< [apiv2][body] GET https://api.github.com/repos///actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:36:10.506Z] >>> [apiv2][query] GET https://api.github.com/repos/AmazonCloneGurjantrandahwa//actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:36:11.151Z] <<< [apiv2][status] GET https://api.github.com/repos/AmazonCloneGurjantrandahwa//actions/secrets/public-key 401
+[debug] [2022-08-23T15:36:11.152Z] <<< [apiv2][body] GET https://api.github.com/repos/AmazonCloneGurjantrandahwa//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:36:19.403Z] >>> [apiv2][query] GET https://api.github.com/repos/AmazonCloneGurjantrandahwa/actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:36:20.323Z] <<< [apiv2][status] GET https://api.github.com/repos/AmazonCloneGurjantrandahwa/actions/secrets/public-key 401
+[debug] [2022-08-23T15:36:20.324Z] <<< [apiv2][body] GET https://api.github.com/repos/AmazonCloneGurjantrandahwa/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:36:41.042Z] >>> [apiv2][query] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:36:41.770Z] <<< [apiv2][status] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key 401
+[debug] [2022-08-23T15:36:41.771Z] <<< [apiv2][body] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:36:42.756Z] >>> [apiv2][query] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:36:43.373Z] <<< [apiv2][status] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key 401
+[debug] [2022-08-23T15:36:43.376Z] <<< [apiv2][body] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:40:22.312Z] >>> [apiv2][query] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:40:23.195Z] <<< [apiv2][status] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key 401
+[debug] [2022-08-23T15:40:23.196Z] <<< [apiv2][body] GET https://api.github.com/repos/AmazonClone/Gurjantrandahwa/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:53:28.020Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:53:28.535Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:53:28.735Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-23T15:53:34.063Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-08-23T15:53:34.063Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:53:36.192Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-08-23T15:53:36.193Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-23T15:53:36.482Z] Error: kill ENOSYS
+    at process.kill (internal/process/per_thread.js:204:13)
+    at process.listener (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (events.js:400:28)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-23T15:53:36.528Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-08-23T15:53:36.528Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
