@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import './orders.css'
 import {db} from "../../Common/Firebase";
 import {useStateValue} from "../../Common/StateProvider/StateProvider";
-import SingleOrder from "./DetailsOrder/DetailsOrder";
+import DetailsOrder from "./DetailsOrder/DetailsOrder";
 function Orders() {
     const [{basket, user}, dispatch] = useStateValue()
     const [orders, setOrders] = useState([]);
@@ -27,7 +27,7 @@ function Orders() {
         <h1>Your Orders</h1>
         <div className={"orders-order"}>
             {orders?.map(order=>(
-                <SingleOrder order={order}/>
+                <DetailsOrder order={order}/>
             ))}
         </div>
     </div>

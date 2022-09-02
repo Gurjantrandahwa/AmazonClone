@@ -4,7 +4,7 @@ import moment from "moment";
 import CheckoutProduct from "../../CheckoutProduct/CheckoutProduct";
 import CurrencyFormat from "react-currency-format";
 
-function SingleOrder({order}) {
+function DetailsOrder({order}) {
     return <div className={"single-order"}>
         <h2>Order</h2>
         <p>{moment.unix(order.data.created).format("MMMM Do YYYY,h:mma")}</p>
@@ -35,4 +35,4 @@ function SingleOrder({order}) {
     </div>
 }
 
-export default SingleOrder
+export default DetailsOrder
